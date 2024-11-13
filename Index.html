@@ -6,44 +6,55 @@
     <meta name="Autor" content="Keyla Salazar Céspedes">
     <meta name="keywords" content="Informacion personal,landing page,git,github">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+
 </head>
 <body>
     <header>
         <img src="Imagenes/ilustracion-moderna-concepto-computadora-escritorio_114360-11616.jpg.avif" alt="logo" width="100px">
         <h1>Quick Innovation</h1>
+        <nav id="Inicio">
+            <ul>
+                <li>
+                    <a href="#InformacionPersonal">Informacion Personal</a></li>
+                <li><a href="#Experencialaboral">Experencia laboral</a></li>
+                <li><a href="#TemasdeInteres">Temas interés</a></li>
+                <li><a href="#Resumen">Resumen</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav id="Inicio">
-        <ul>
-            <li><a href="#InformacionPersonal"></a>Informacion Personal</li>
-            <li><a href="#Experencialaboral"></a>Experencia laboral</li>
-            <li><a href="#TemasdeInteres"></a>Temas interés</li>
-            <li><a href="#Resumen"></a>Resumen</li>
-        </ul>
-    </nav>
+   
     <main>
         <section id="InformacionPersonal">
             <div class="cuadrado">
                 <hr>
                 <h2>Informacion Personal</h2>
                 <hr>
-                <img src="Imagenes/WhatsApp Image 2024-11-07 at 7.21.37 PM.jpeg" alt="Foto personal" width="100px">
-                <h2>Keyla Salazar Cespedes</h2>
-                <h3>Programadora</h3>
-                <hr>
-                <h4>Telefono</h4>
-                <p>72308251</p>
-                <h4>ubicacion</h4>
-                <p>Alajuela,Naranjo</p>
-                <h4>E-mail</h4>
-                <p>Keylaysc@gmail.com</p>
-                
-        
-                <hr>
-                <a href="https://www.facebook.com/yanikssy?mibextid=ZbWKwL"><img src="Imagenes/Facebook_Logo_(2019).png" alt="logoFacebook" height="25px"></a>
-                <a href="https://www.instagram.com/yanikssy02?igsh=MTVyNDZ6b2w3amQ1bg=="><img src="Imagenes/Instagram_logo_2022.svg.png" alt="logoInstagram" height="25px"></a>
-                <a href="https://github.com/YanikssyMitchel"><img src="Imagenes/Facebook_Logo_(2019).png" alt="logoHithub" height="25px"></a>
-                <hr>
-                <a href="#Inicio">Inicio</a>
+                <div class="contenido">
+                    <img src="Imagenes/WhatsApp Image 2024-11-07 at 7.21.37 PM.jpeg" alt="Foto personal" class="foto-personal">
+                    <div class="texto">
+                        <div class="personal">
+                            <h2>Keyla Salazar Cespedes</h2>
+                            <h3 class="izquierda">Programadora</h3>
+                        </div>
+                        <hr>
+                        <h4>Telefono</h4>
+                        <p>72308251</p>
+                        <h4>Ubicación</h4>
+                        <p>Alajuela, Naranjo</p>
+                        <h4>E-mail</h4>
+                        <p>Keylaysc@gmail.com</p>
+                        <hr>
+                        <div class="links">
+                            <a href="https://www.facebook.com/yanikssy?mibextid=ZbWKwL"><img src="Imagenes/Facebook_Logo_(2019).png" alt="logoFacebook" height="25px"></a>
+                            <a href="https://www.instagram.com/yanikssy02?igsh=MTVyNDZ6b2w3amQ1bg=="><img src="Imagenes/Instagram_logo_2022.svg.png" alt="logoInstagram" height="25px"></a>
+                            <a href="https://github.com/YanikssyMitchel"><img src="Imagenes/logo-hithub.png" alt="logoGitHub" height="25px"></a>
+                        </div>
+                        <hr>
+                        <a href="#Inicio">Inicio</a>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="Experencialaboral">
@@ -65,78 +76,81 @@
         <section id="TemasdeInteres">
             <div class="cuadrado">
                 <hr>
-                <h2>Temas de interes</h2>
+                <h2>Temas de interés</h2>
                 <hr>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/raQ0b6mIFzI?si=IKwkUfGqBj61IZf7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <hr>
-                <iframe src="CartaRecomendacion.html" frameborder="1"></iframe>
+                <div class="video-carta">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/raQ0b6mIFzI?si=IKwkUfGqBj61IZf7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe src="CartaRecomendacion.html" frameborder="1"></iframe>
+                </div>
                 <hr>
                 <a href="#Inicio">Inicio</a>
             </div>
-            
         </section>
         <section id="Resumen">
             <div class="cuadrado">
                 <hr>
                 <h2>Resumen</h2>
                 <hr>
-                <h3>Temas de interes</h3>
-                <ul>
-                    <li>El cuidado animal
+                <div class="contenido">
+                    <div class="temas">
+                        <h3>Temas de interés</h3>
                         <ul>
-                            <li>Temas relacionados con los productos free cruelty, ayuda a animales callejeros, vacunación
+                            <li>El cuidado animal
+                                <ul>
+                                    <li>Temas relacionados con los productos free cruelty, ayuda a animales callejeros, vacunación</li>
+                                </ul>
+                            </li>
+                            <li>Cuidado ambiental
+                                <ul>
+                                    <li>Ayuda en animales en reservas, plantación de árboles, recolección de basura.</li>
+                                </ul>
+                            </li>
+                            <li>Leer
+                                <ul>
+                                    <li>Libros de acción, romance, thrillers...</li>
+                                </ul>
                             </li>
                         </ul>
-                    </li>
-                    <li>Cuidado ambiental
+                    </div>
+                    <div class="habilidades">
+                        
+                        <h3>Habilidades y fortalezas</h3>
+                        <h5>SoftSkills</h5>
                         <ul>
-                            <li>
-                                Ayuda en animales en reservas, plantacion de arboles, recolecta de basura.
-                            </li>
+                            <li>Creatividad</li>
+                            <li>Trabajo en equipo</li>
+                            <li>Positivismo</li>
+                            <li>Comunicación</li>
                         </ul>
-                    </li>
-                    <li>Leer
+                        <h5>HardSkills</h5>
                         <ul>
-                            <li>
-                                Libros de accion, romance, thrilllers...
-                            </li>
+                            <li>Internet</li>
+                            <li>Office</li>
+                            <li>Social media</li>
+                            <li>Outlook</li>
                         </ul>
-                    </li>
-                </ul>
+                       
+                    </div>
+                    <div class="conocimientos">
+                        <h3>Conocimientos</h3>
+                        <ul>
+                            <li>Algoritmos y pseudocódigo</li>
+                            <li>Modelado de soluciones de software</li>
+                            <li>Programación orientada a objetos (OOP)</li>
+                            <li>Desarrollo de aplicaciones de consola y de escritorio</li>
+                            <li>Entorno de desarrollo integrado (IDE)</li>
+                            <li>Desarrollo de aplicaciones de escritorio (Windows Forms, WPF)</li>
+                            <li>Uso de bases de datos en aplicaciones</li>
+                            <li>Consultas básicas y avanzadas</li>
+                            <li>Gestión de bases de datos</li>
+                            <li>Desarrollo web básico</li>
+                            <li>Modelado de sistemas</li>
+                        </ul>
+                    </div>
+                </div>
                 <hr>
-                <h3>Habilidades y fortalezas</h3>
-                <h5>SoftSkills</h5>
-                <ul>
-                    <li>Creatividad</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Positivismo</li>
-                    <li>Comunicacion</li>
-                </ul>
-                <h5>HardSkills</h5>
-                <ul>
-                    <li>internet</li>
-                    <li>Office</li>
-                    <li>Social media</li>
-                    <li>Outlook</li>
-                </ul>
-                <hr>
-                <h3>Conocimientos</h3>
-                <ul>
-                    <li>Algoritmos y pseudocódigo</li>
-                    <li>Modelado de soluciones de software</li>
-                    <li>Programación orientada a objetos (OOP)</li>
-                    <li>Desarrollo de aplicaciones de consola y de escritorio</li>
-                    <li>Entorno de desarrollo integrado (IDE)</li>
-                    <li>Desarrollo de aplicaciones de escritorio (Windows Forms, WPF): </li>
-                    <li>Uso de bases de datos en aplicaciones</li>
-                    <li>Consultas básicas y avanzadas:</li>
-                    <li>Gestión de bases de datos</li>
-                    <li>Desarrollo web básico:</li>
-                    <li>Modelado de sistemas</li>
-                </ul>
-                
+                <a href="#Inicio">Inicio</a>
             </div>
-            <a href="#Inicio">Inicio</a>
         </section>
        
     </main>

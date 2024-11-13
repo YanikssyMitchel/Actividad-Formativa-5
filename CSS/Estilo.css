@@ -1,0 +1,195 @@
+h1{
+
+    font-family:fantasy;
+    color: black;
+    margin: 0%;
+   font-size: 2em;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(254, 207, 215);
+    gap: 50px;
+}
+header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav ul {
+    list-style: none; 
+    display: flex; 
+    flex: 2;
+    justify-content: flex-end;
+    
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(254, 207, 215);
+
+ }
+  
+  nav ul li {
+    margin-right: 20px; 
+    gap: 50px;
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333; 
+    font-size: 1.1em; 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul li a:hover {
+    color: #ff005d; /* Color cuando se pasa el mouse por encima */
+  }
+
+
+
+/*informacion personas*/
+#InformacionPersonal {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.cuadrado {
+    border: 2px solid #333; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+
+.contenido {
+    display: flex; /* Usa flexbox para poner la imagen a la izquierda y el texto a la derecha */
+    align-items: center; 
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+
+.foto-personal {
+    width: 300px; 
+    border-radius: 10%; 
+    object-fit: cover; 
+}
+
+
+.texto {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+.personal{
+    color: #ff005d;
+
+}
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #ff34f5;
+    font-weight: bold;
+    margin-top: 20px;
+}
+a:hover {
+    color: #00e5ff;
+}
+
+
+/*resumen*/
+#Resumen {
+    padding: 20px;
+    margin: 20px;
+}
+
+.contenido {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 30;
+    flex-wrap: wrap; 
+}
+
+
+.temas, .habilidades, .conocimientos {
+    border: 2px solid #333; 
+    padding: 20px;
+    border-radius: 10px; 
+    flex: 1;
+    min-width: 250px; 
+}
+
+
+h2, h3, h5 {
+    text-align: center; 
+    margin-top: 10px;
+}
+h2{
+    color: #ff005d;
+}
+
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+ul ul {
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+#TemasdeInteres {
+    padding: 20px;
+    margin: 20px;
+}
+.video-carta {
+    display: flex; 
+    flex: 1;
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+iframe {
+    flex: 1; 
+    min-width: 280px;
+    height: 315px;
+}
+
+.Imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.imagen {
+    width: 30%; 
+    height: auto;   
+    padding-bottom: 10%; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    transition: border-radius 0.3s ease-in-out; 
+    cursor: pointer; 
+    margin-bottom: 10px; 
+}
+
+.imagen:hover,
+.imagen:active {
+    border-radius: 50%; 
+}
+
+
